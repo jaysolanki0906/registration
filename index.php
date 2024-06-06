@@ -42,7 +42,7 @@
     </script>
 </head>
 <body>
-<form action="OTP_Send.php" method="post" onsubmit="return validateForm()">
+<form action="database.php" method="post" onsubmit="return validateForm()">
   <div class="container">
     <h1>Register</h1>
     <p>Please fill in this form to create an account.</p>

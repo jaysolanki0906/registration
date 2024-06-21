@@ -1,3 +1,4 @@
+
 /* // WoodViz */
 /*Header CSS*/
 .bodycolor {
@@ -228,6 +229,182 @@ li {
 
 .tabulator .tabulator-cell {
     padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .tabulator .tabulator-headers {
+        font-size: 14px;
+    }
+
+    .tabulator .tabulator-col {
+        font-size: 14px;
+    }
+
+    .tabulator .tabulator-cell {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
+======
+/* // WoodViz */
+/*Login Page CSS*/
+
+#login {
+    background: url('../resources/background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    padding-top: 100px;
+}
+
+.login-container {
+    padding: 40px 60px 10px 60px;
+}
+
+.login-card {
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+
+}
+
+.rounded-field {
+    border-radius: 13px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}
+
+.rounded-btn {
+    border-radius: 13px;
+    padding: 10px 30px;
+}
+
+.signin-btn {
+    background-color: #fbb58d;
+    border: 1px solid #808080;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.signin-btn:hover {
+    background-color: #faae82;
+    border: 0px #ddd;
+}
+
+.google-btn {
+    background-color: #ffffff;
+    border: 1px solid #808080;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.google-btn img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.google-btn:hover {
+    background-color: #f0f0f0;
+    border: 0px #ddd;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .login-card {
+        max-width: 400px;
+    }
+}
+@media (min-width: 768px) {
+    .login-card {
+        max-width: 500px;
+        max-height: 1300px;
+    }
+}
+
+/*Manage Users CSS*/
+#manageUsers-body {
+    font-family: 'Inter', sans-serif;
+}
+
+.main-content {
+    display: flex;
+    height: 100vh;
+    padding: 15px;
+}
+
+.input-group i {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#searchbar {
+    display: flex;
+    width: 100%;
+}
+
+#searchbar .input-group {
+    width: 90%;
+    flex: 1;
+    flex-wrap: nowrap;
+}
+
+#searchDropdown {
+    text-align: left;
+}
+
+#addUserBtn {
+    max-width: 20%;
+    font-size: 18px;
+    background: #FF7A00;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+    #searchbar .input-group {
+        max-width: 90%;
+    }
+    #addUserBtn {
+        max-width: 200px;
+    }
+}
+
+.user-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#user-table-container {
+    padding: 20px;
+    border: 1px solid #939FAF;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.tabulator .tabulator-headers {
+    font-size: 16px;
+    text-align: center;
+}
+
+.tabulator .tabulator-col {
+    font-size: 16px;
+}
+
+.tabulator .tabulator-cell {
+    padding: 10px; /* Reduce padding for smaller screens */
     box-sizing: border-box;
     text-align: center;
     font-size: 16px;

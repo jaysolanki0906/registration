@@ -1,0 +1,79 @@
+body {
+    background: url('../resources/background.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Inter', sans-serif;
+    padding-top: 100px;
+}
+
+.container {
+    padding: 40px 60px 10px 60px;
+}
+
+.login-card {
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+
+}
+
+.rounded-field {
+    border-radius: 13px;
+    padding: 10px 30px;
+    font-size: 1.1rem;
+}
+
+.rounded-btn {
+    border-radius: 13px;
+    padding: 10px 30px;
+}
+
+.signin-btn {
+    background-color: #fbb58d;
+    border: 1px solid #808080;
+    padding: 15px;
+    font-size: 18px;
+}
+
+.signin-btn:hover {
+    background-color: #faae82;
+    border: 0px #ddd;
+}
+
+.google-btn {
+    background-color: #ffffff;
+    border: 1px solid #808080;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.google-btn img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.google-btn:hover {
+    background-color: #f0f0f0;
+    border: 0px #ddd;
+}
+
+@media (max-width: 576px) {
+    .container {
+        padding: 20px;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .login-card {
+        max-width: 400px;
+    }
+}
+@media (min-width: 768px) {
+    .login-card {
+        max-width: 500px;
+        max-height: 1300px;
+    }
+}

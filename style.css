@@ -1,0 +1,142 @@
+.bodycolor {
+    background-image: url('https://img.freepik.com/free-photo/sand-textures-background_74190-1330.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1718064000&semt=ais_user');
+    background-size: cover;
+}
+
+.bgcolor {
+    background-color: white;
+}
+
+.woodViz-style {
+    color: orange;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.head-style {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.img1 {
+    width: 170px;
+}
+
+.div-height {
+    min-height: 100vh;
+}
+
+.search-style {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.main {
+    overflow: hidden;
+    width: 100%;
+}
+
+#sidebar {
+    width: 200px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.sidebar-link {
+    border: none;
+    padding: 10px;
+    background-color: #00000000;
+    color: black;
+}
+
+.sidebar-sub-link {
+    border: none;
+    padding: 10px;
+    background-color: #00000000;
+    color: black;
+    width: 200px;
+    min-width: 200px;
+}
+
+.sidebar-item:hover {
+    background-color: orange;
+}
+
+.sidebar-sub-link:hover {
+    background-color: white;
+}
+
+.sidebar-sub-item {
+    background-color: peachpuff;
+    width: 200px;
+    min-width: 200px;
+}
+
+.sidebar-span-style {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.sidebar-sub-span-style {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (max-width:500px) {
+    #sidebar {
+        width: 100px;
+        min-width: 100px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .img1 {
+        width: 100px;
+    }
+
+    .sidebar-span-style {
+        font-size: small;
+        font-weight: 500;
+    }
+    .extra-style{
+        padding-left: 10px;
+    }
+
+    .sidebar-sub-span-style {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .sidebar-sub-item {
+        background-color: peachpuff;
+        width: 100px;
+        min-width: 100px;
+    }
+
+    .sidebar-sub-link {
+        border: none;
+        padding: 10px;
+        background-color: #00000000;
+        color: black;
+        width: 100px;
+        min-width: 100px;
+    }
+    .icon-b{
+        display: block;
+    }
+    .icon-b1{
+        display: none;
+        padding: 0;
+    }
+}

@@ -1,0 +1,250 @@
+/* // WoodViz */
+/*Header CSS*/
+.bodycolor {
+    background-image: url('https://img.freepik.com/free-photo/sand-textures-background_74190-1330.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1718064000&semt=ais_user');
+    background-size: cover;
+}
+
+.bgcolor {
+    background-color: white;
+}
+
+.woodViz-style {
+    color: orange;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.head-style {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.img1 {
+    width: 170px;
+}
+
+.div-height {
+    min-height: 100vh;
+}
+
+.search-style {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar {
+    width: 200px;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+li {
+    list-style: none;
+}
+
+.sidebar-link {
+    border: none;
+    padding: 10px;
+    background-color: #00000000;
+    color: black;
+}
+
+.sidebar-sub-link {
+    border: none;
+    padding: 10px;
+    background-color: #00000000;
+    color: black;
+    width: 200px;
+    min-width: 200px;
+}
+
+.sidebar-item:hover {
+    background-color: orange;
+}
+
+.sidebar-sub-link:hover {
+    background-color: white;
+}
+
+.sidebar-sub-item {
+    background-color: peachpuff;
+    width: 200px;
+    min-width: 200px;
+}
+
+.sidebar-span-style {
+    font-size: medium;
+    font-weight: 500;
+}
+
+.sidebar-sub-span-style {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+@media (max-width:500px) {
+    #sidebar {
+        width: 100px;
+        min-width: 100px;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    .img1 {
+        width: 100px;
+    }
+
+    .sidebar-span-style {
+        font-size: small;
+        font-weight: 500;
+    }
+
+    .extra-style {
+        padding-left: 10px;
+    }
+
+    .sidebar-sub-span-style {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    .sidebar-sub-item {
+        background-color: peachpuff;
+        width: 100px;
+        min-width: 100px;
+    }
+
+    .sidebar-sub-link {
+        border: none;
+        padding: 10px;
+        background-color: #00000000;
+        color: black;
+        width: 100px;
+        min-width: 100px;
+    }
+
+    .icon-b {
+        display: block;
+    }
+
+    .icon-b1 {
+        display: none;
+        padding: 0;
+    }
+}
+
+/*Manage Users CSS*/
+.main-content {
+    display: flex;
+    height: 100%;
+    padding: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.search-input{
+    display: flex;
+    width: 80%;
+    font-size: 18px;
+}
+
+.search-input .input-group-text {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    max-height: 64px;
+    max-width:fit-content;
+}
+
+.search-input .form-select {
+    border-radius: 0;
+}
+
+.search-input .form-control {
+    border-radius: 0;
+}
+
+.search-button {
+    white-space: nowrap;
+    max-height: 64px;
+    padding: 20px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#user-searchbar {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+#addUserBtn {
+    max-width: 20%;
+    max-height: 64px;
+    padding: 20px;
+    font-size: 18px;
+    background: #FF7A00;
+    color: #fff;
+}
+
+@media (min-width: 576px) {
+
+    #addUserBtn {
+        max-width: 200px;
+    }
+}
+
+.user-card {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#user-table-container {
+    padding: 20px;
+    border: 1px solid #939FAF;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-sizing: border-box;
+}
+
+.tabulator .tabulator-headers {
+    font-size: 16px;
+    text-align: center;
+}
+
+.tabulator .tabulator-col {
+    font-size: 16px;
+}
+
+.tabulator .tabulator-cell {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+@media (max-width: 576px) {
+    .tabulator .tabulator-headers {
+        font-size: 14px;
+    }
+
+    .tabulator .tabulator-col {
+        font-size: 14px;
+    }
+
+    .tabulator .tabulator-cell {
+        padding: 5px;
+        font-size: 14px;
+    }
+}
